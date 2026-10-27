@@ -106,7 +106,7 @@ expands what that document can execute or request.
 
 ## Package and provenance
 
-Version 0.1.1 includes an Agent Plugins `plugin.json` for OpenAI and a Claude
+Version 0.1.2 includes an Agent Plugins `plugin.json` for OpenAI and a Claude
 plugin manifest plus repository marketplace. Directory review/publication is a
 separate step; repository installation does not imply official directory approval.
 

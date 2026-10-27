@@ -1,6 +1,6 @@
 {
   "name": "@compound-labs/brand-pdf-runtime",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "description": "Local HTML-to-PDF renderer for the Brand PDF agent skill",

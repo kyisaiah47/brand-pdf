@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "brand-pdf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create PDFs using a website’s actual typography, design tokens, and component patterns, then verify every printed page.",
   "author": {
     "name": "Compound Labs",
@@ -38,7 +38,7 @@
         "termsOfServiceURL": "https://github.com/kyisaiah47/brand-pdf/blob/main/LICENSE"
       },
       "publication": {
-        "release_notes": "Add public data-handling documentation and explicit privacy and license links for marketplace submission."
+        "release_notes": "Add Claude Directory display name and privacy, support, and terms links to the Claude plugin manifest."
       }
     }
   }
