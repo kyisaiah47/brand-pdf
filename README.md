@@ -106,7 +106,7 @@ expands what that document can execute or request.
 
 ## Package and provenance
 
-Version 0.1.0 includes an Agent Plugins `plugin.json` for OpenAI and a Claude
+Version 0.1.1 includes an Agent Plugins `plugin.json` for OpenAI and a Claude
 plugin manifest plus repository marketplace. Directory review/publication is a
 separate step; repository installation does not imply official directory approval.
 
@@ -118,3 +118,7 @@ instead of a fixed system-browser executable.
 Copyright 2026 Compound Labs. All rights reserved. See [LICENSE](LICENSE) for
 installation and internal-use permission. Third-party dependency notices are in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Privacy and terms
+
+Read the [data-handling policy](PRIVACY.md) and [usage terms](LICENSE) before use.
