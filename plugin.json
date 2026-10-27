@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "brand-pdf",
+  "version": "0.1.0",
+  "description": "Create PDFs using a website’s actual typography, design tokens, and component patterns, then verify every printed page.",
+  "author": {
+    "name": "Compound Labs",
+    "url": "https://github.com/kyisaiah47"
+  },
+  "homepage": "https://github.com/kyisaiah47/brand-pdf",
+  "repository": "https://github.com/kyisaiah47/brand-pdf",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "pdf",
+    "documents",
+    "brand",
+    "print",
+    "codex",
+    "claude-code"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Brand PDF",
+        "shortDescription": "Documents that match your site",
+        "longDescription": "Create PDFs using a website’s actual typography, design tokens, and component patterns, then verify every printed page. Supports Codex and Claude Code. See the repository for setup requirements, tested behavior, and limitations.",
+        "developerName": "Compound Labs",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/kyisaiah47/brand-pdf",
+        "supportURL": "https://github.com/kyisaiah47/brand-pdf/issues",
+        "defaultPrompt": [
+          "Create a PDF using this website’s existing fonts, tokens, and component styles."
+        ],
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "publication": {
+        "release_notes": "Initial public package for Codex and Claude Code."
+      }
+    }
+  }
+}

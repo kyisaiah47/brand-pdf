@@ -1,0 +1,26 @@
+/* Copyright 2026 Compound Labs. All rights reserved.
+   Minimal print mechanics. Load the brand's tokens and component CSS first.
+   Override geometry for A4/custom sizes in the document's own print stylesheet. */
+@page { size: Letter; margin: 0.75in; }
+*, *::before, *::after { box-sizing: border-box; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+html, body { margin: 0; padding: 0; }
+img, svg { max-width: 100%; }
+h1, h2, h3 { break-after: avoid; }
+p, li { orphans: 3; widows: 3; }
+thead { display: table-header-group; }
+tr, figure, blockquote { break-inside: avoid; }
+/* Small items may avoid a break; a long section must remain able to paginate. */
+.pdf-keep { break-inside: avoid; }
+.pdf-break { break-before: page; }
+@page fullbleed { margin: 0; }
+/* Optional fixed-sheet mode. The renderer rejects content outside these boxes. */
+.pdf-page {
+  page: fullbleed;
+  width: 8.5in;
+  height: 11in;
+  padding: 0.75in;
+  position: relative;
+  display: flow-root;
+  break-after: page;
+}
+.pdf-page:last-child { break-after: auto; }

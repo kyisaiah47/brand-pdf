@@ -1,0 +1,21 @@
+{
+  "name": "brand-pdf",
+  "version": "0.1.0",
+  "description": "Create PDFs using a website\u2019s actual typography, design tokens, and component patterns, then verify every printed page.",
+  "author": {
+    "name": "Compound Labs",
+    "url": "https://github.com/kyisaiah47"
+  },
+  "homepage": "https://github.com/kyisaiah47/brand-pdf",
+  "repository": "https://github.com/kyisaiah47/brand-pdf",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "pdf",
+    "documents",
+    "brand",
+    "print",
+    "codex",
+    "claude-code"
+  ],
+  "skills": "./skills/"
+}

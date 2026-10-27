@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sample project report</title>
+  <link rel="stylesheet" href="sample-brand/tokens.css">
+  <link rel="stylesheet" href="sample-brand/components.css">
+  <link rel="stylesheet" href="../assets/print.css">
+  <style>
+    @page {
+      @bottom-left { content: 'Sample project report'; font-family: Arial, sans-serif; font-size: 8pt; color: #53656e; }
+      @bottom-right { content: counter(page) ' / ' counter(pages); font-family: Arial, sans-serif; font-size: 8pt; color: #53656e; }
+    }
+    .intro { padding-top: 30px; }
+    .intro p { font-size: 13pt; }
+  </style>
+</head>
+<body>
+  <header class="brand-name">Sample Workshop</header>
+  <main>
+    <section class="intro">
+      <h1>A clearer handoff for the next phase</h1>
+      <p>This sample report demonstrates how a document can share the typography,
+      spacing, and table grammar of a website without inventing a second brand.</p>
+    </section>
+    <dl class="document-meta">
+      <div><dt>Prepared for</dt><dd>Example team</dd></div>
+      <div><dt>Reporting period</dt><dd>Sample planning cycle</dd></div>
+    </dl>
+    <h2>Work completed</h2>
+    <table class="register">
+      <thead><tr><th>Workstream</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td>Discovery</td><td>Recorded the audience, document purpose, and information needed to decide the next step.</td></tr>
+        <tr><td>Structure</td><td>Organized the report around decisions and supporting evidence.</td></tr>
+        <tr><td>Production</td><td>Reused the source typography and component patterns, then checked every printed page.</td></tr>
+      </tbody>
+    </table>
+    <aside class="notice pdf-keep">This is a reproducible fixture. All names and content are fictional.</aside>
+    <section class="pdf-break">
+      <h2>Next actions</h2>
+      <p>Keep the document's source HTML and its brand pack together. Rebuild the
+      PDF whenever the facts or the underlying design source changes.</p>
+      <table class="register">
+        <thead><tr><th>Action</th><th>Evidence of completion</th></tr></thead>
+        <tbody>
+          <tr><td>Confirm assets</td><td>The renderer reports no missing images, failed fonts, or blocked resources.</td></tr>
+          <tr><td>Check pagination</td><td>Every page has readable margins and complete rows. Page numbers match the actual PDF.</td></tr>
+          <tr><td>Inspect output</td><td>The PDF is rendered to images and every page is visually reviewed.</td></tr>
+        </tbody>
+      </table>
+      <h2>Notes for the reader</h2>
+      <p>The two-page structure is intentional. Covers, end pages, and logos are
+      optional: use them when the document and the brand call for them.</p>
+    </section>
+  </main>
+</body>
+</html>

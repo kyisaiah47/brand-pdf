@@ -1,0 +1,16 @@
+/* Reusable component grammar from a fictional website. */
+body { background: var(--brand-paper); color: var(--brand-ink); font-family: var(--brand-body-font); font-size: 11pt; line-height: 1.5; }
+h1, h2, h3 { font-family: var(--brand-ui-font); line-height: 1.12; margin: 0; }
+h1 { font-size: 32pt; letter-spacing: -0.04em; }
+h2 { font-size: 17pt; padding-top: 22px; }
+p { margin: 0; padding: 8px 0; }
+.brand-name { font-family: var(--brand-ui-font); font-weight: 700; font-size: 11pt; }
+.document-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 18px 0; border-block: 1px solid var(--brand-rule); margin: 0; }
+.document-meta dt, .document-meta dd { margin: 0; }
+.document-meta dt { font-family: var(--brand-ui-font); font-size: 9pt; color: var(--brand-muted); }
+.document-meta dd { padding-top: 5px; }
+.register { width: 100%; border-collapse: collapse; margin-top: 18px; }
+.register th, .register td { text-align: left; vertical-align: top; padding: var(--space-row) 0; border-bottom: 1px solid var(--brand-rule); }
+.register th { font-family: var(--brand-ui-font); font-weight: 600; }
+.register td + td, .register th + th { padding-left: 22px; }
+.notice { margin: 18px 0 0; padding: 16px; border: 1px solid var(--brand-rule); }

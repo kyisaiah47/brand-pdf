@@ -1,0 +1,11 @@
+/* Fictional example website tokens; replace these imports with the actual brand. */
+:root {
+  --brand-ink: #203039;
+  --brand-paper: #fffef9;
+  --brand-accent: #a74325;
+  --brand-muted: #53656e;
+  --brand-rule: #cbd2ce;
+  --brand-body-font: Georgia, 'Times New Roman', serif;
+  --brand-ui-font: Arial, Helvetica, sans-serif;
+  --space-row: 12px;
+}

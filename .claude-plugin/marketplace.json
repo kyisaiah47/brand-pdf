@@ -1,0 +1,16 @@
+{
+  "name": "brand-pdf",
+  "owner": {
+    "name": "Compound Labs"
+  },
+  "plugins": [
+    {
+      "name": "brand-pdf",
+      "source": "./",
+      "description": "Create PDFs using a website\u2019s actual typography, design tokens, and component patterns, then verify every printed page."
+    }
+  ],
+  "metadata": {
+    "description": "Brand PDF: create and verify documents using the source website\u2019s design."
+  }
+}
